@@ -1,0 +1,32 @@
+{
+  "name": "react-native-logentries",
+  "description": "A React Native library that allows to log to remote logging service Logentries",
+  "version": "1.0.0",
+  "author": "Joel Costa <joelrfcosta@gmail.com> (https://github.com/joelrfcosta)",
+  "license": "MIT",
+  "contributors": [
+    "Philip Shurpik <philip.shurpik@gmail.com> (https://github.com/philipshurpik)",
+    "Omer Faruk APLAK <omeraplak@gmail.com> (https://github.com/omeraplak)"
+  ],
+  "keywords": [
+    "react-native",
+    "react-native-logentries",
+    "react",
+    "native",
+    "log",
+    "live-log",
+    "remote-log"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joelrfcosta/react-native-logentries"
+  },
+  "nativePackage": true,
+  "scripts": {
+    "postinstall": "node ios/postinstall.js"
+  },
+  "dependencies": {
+    "download": "5.0.2",
+    "fs-extra": "1.0.0"
+  }
+}
